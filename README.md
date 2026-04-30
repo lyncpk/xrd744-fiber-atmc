@@ -13,10 +13,8 @@ The final release will contain:
 - /sound/mementos.acb
 - /sound/my_palace.acb
 
-```
 > [!WARNING]  
 > This project is nowhere near completion! Don't expect builds anytime soon.
-```
 
 ## Software
  This project is developed with *CRI Atom Craft Ver.2.35.19* ( atmc ) and will build correctly for versions that support:
@@ -38,3 +36,4 @@ For versions of Persona 5, most .ACB files contained are completely different an
 
 ## Testing
 To easily verify Cue ID and Player / Voice configuration in-game, download [Ryo Framework](https://gamebanana.com/mods/549032) and configure "Developer Mode" to see Cue Triggers being printed to conhost.
+To verify the integrity of the project file and any other version of atmc, select Build from the Global Settings windows and select Build Only ACF, then do a binary compare with the vanilla .ACF file.
