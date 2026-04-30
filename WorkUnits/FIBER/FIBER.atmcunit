@@ -9,7 +9,7 @@
       <Orca OrcaName="CueSheetFolder" BusMap="/CriAtomCraftV2Root/GlobalSettings/BusMap/BusMapforCue/BusSet_xrd744" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetFolder">
         <Orca OrcaName="SOUND" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetSubFolder">
           <Orca OrcaName="DUNGEON" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetSubFolder">
-            <Orca OrcaName="DUNGEON_SE" AwbHash="40912" LastOutputCueSheetSize="25952" OoUniqId="e65e06f2-68e5-4d6d-8f41-13e4f9b2f150" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+            <Orca OrcaName="DUNGEON_SE" AwbHash="40912" LastOutputCueSheetSize="26080" OoUniqId="e65e06f2-68e5-4d6d-8f41-13e4f9b2f150" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
               <Orca OrcaName="amb_00" BusSendEx1="0.2" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" CueID="0" CuePriority="255" PlaybackLimitEnableFlag="True" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
                 <Orca OrcaName="Track" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                   <Orca OrcaName="0.amb_00.0.0.ADX.wav" EgReleaseTimeMs="200" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/FIBER_MaterialInfo/MaterialRootFolder/DUNGEON_SE/0.amb_00.0.0.ADX.wav" LinkWaveformPathName="DUNGEON_SE/0.amb_00.0.0.ADX.wav" Pan3dAngle="-30" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
@@ -756,10 +756,15 @@
                   <Orca OrcaName="119.metal_fence.0.0.ADX.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/FIBER_MaterialInfo/MaterialRootFolder/DUNGEON_SE/119.metal_fence.0.0.ADX.wav" LinkWaveformPathName="DUNGEON_SE/119.metal_fence.0.0.ADX.wav" PanType="Position3d" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
                 </Orca>
               </Orca>
-              <Orca OrcaName="chandelier" BusSendEx1="0.2" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" CueID="120" CuePriorityType="FirstPriority" PlaybackLimitEnableFlag="True" PlaybackLimits="2" Pos3dAisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/FieldObjectDistance" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+              <Orca OrcaName="chandelier" BusSendEx1="0.2" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" CueID="120" CuePriorityType="FirstPriority" PlaybackLimitEnableFlag="True" PlaybackLimits="2" Pos3dAisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/FieldObjectDistance" SilentMode="VoiceStop" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
                 <Orca OrcaName="LinkGlobalAisac_FieldObject" LinkAisac="/CriAtomCraftV2Root/GlobalSettings/GlobalAISACs/GlobalAisac_FieldObject" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink" />
                 <Orca OrcaName="Track_120.chandelier.0.0.ADX" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                   <Orca OrcaName="120.chandelier.0.0.ADX.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/FIBER_MaterialInfo/MaterialRootFolder/DUNGEON_SE/120.chandelier.0.0.ADX.wav" LinkWaveformPathName="DUNGEON_SE/120.chandelier.0.0.ADX.wav" PanType="Position3d" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                </Orca>
+              </Orca>
+              <Orca OrcaName="kamoshida_lever_fail" BusSendEx1="0.1" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" CueID="121" CuePriority="100" SilentMode="VoiceStop" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+                <Orca OrcaName="Track_121.kamoshida_lever_fail.0.0.ADX" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="121.kamoshida_lever_fail.0.0.ADX.wav" DelayTimeMS="667" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/FIBER_MaterialInfo/MaterialRootFolder/DUNGEON_SE/121.kamoshida_lever_fail.0.0.ADX.wav" LinkWaveformPathName="DUNGEON_SE/121.kamoshida_lever_fail.0.0.ADX.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
                 </Orca>
               </Orca>
             </Orca>
