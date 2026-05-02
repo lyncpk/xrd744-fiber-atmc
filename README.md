@@ -25,9 +25,9 @@ Future release builds of this repository will contain:
 
 ATMC Ver.3, while more easily accessible, is **not** supported. Expect a non-matching .ACF binary and many in-game bugs related to Selector Labels and Automation AISAC Graphs. 
 ## Install
-.atmcproject files are portable, but locally create user and work unit settings files. Modified installs can be more safely moved around by deleting *.atmcuser and *.user_settings. 
+.atmcproject files are portable, but locally create user and work unit settings files. Modified installs can be more safely moved around by deleting *.atmcuser and *.user_settings files. 
 
-ATMC projects by default are created in  `~/Documents/CriAtomCraft/`, which is a good default.
+ATMC projects by default are created in  `~/Documents/CriAtomCraft/`, which functions well for most purposes.
 
 **Expect large files on build!** The .WAV files present are already large to avoid build artifacts from double compression. Reserve at least 3 Gigabytes for ATMC and this repo. 
 
