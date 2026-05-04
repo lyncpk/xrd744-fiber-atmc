@@ -1316,6 +1316,21 @@
           </Orca>
           <Orca OrcaName="BGM" AwbHash="40145" OoUniqId="71bf25f1-ec15-423e-b9ff-8a2a2fe68a97" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet" />
           <Orca OrcaName="SYSTEM" AwbHash="13159" OoUniqId="d1e763f0-76a7-4c7d-bf0e-ce397c1e01ab" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet" />
+          <Orca OrcaName="TEST" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetSubFolder">
+            <Orca OrcaName="DEBUG" AwbHash="44143" LastOutputCueSheetSize="24992" OoUniqId="bbb28349-6a0b-41de-bb5c-f2f5da385183" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+              <Orca OrcaName="Cue_0" BusSendEx1="0.65" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" CueID="0" SwitchVariable="/CriAtomCraftV2Root/GlobalSettings/SelectorFolder/Selector_car" SynthType="SynthSwitch" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+                <Orca OrcaName="Track" SelectorLabel="/CriAtomCraftV2Root/GlobalSettings/SelectorFolder/Selector_car/sedan_1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="1.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/DEBUG/1.wav" LinkWaveformPathName="DEBUG/1.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                </Orca>
+                <Orca OrcaName="Track_0" SelectorLabel="/CriAtomCraftV2Root/GlobalSettings/SelectorFolder/Selector_car/sedan_2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="2.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/DEBUG/2.wav" LinkWaveformPathName="DEBUG/2.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                </Orca>
+                <Orca OrcaName="Track_1" SelectorLabel="/CriAtomCraftV2Root/GlobalSettings/SelectorFolder/Selector_car/sedan_3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="3.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/DEBUG/3.wav" LinkWaveformPathName="DEBUG/3.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                </Orca>
+              </Orca>
+            </Orca>
+          </Orca>
         </Orca>
       </Orca>
     </Orca>
