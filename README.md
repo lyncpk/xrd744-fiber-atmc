@@ -55,3 +55,6 @@ ATMC assigns a Wave Index to files queued for conversion partially via *filename
 > Since AWB Emulator relies on Wave Index to replace audio, mod compatibility without Ryo Framework is essentially 0% unless the *full* .ACB is recreated or a "filler" Cue referencing every Wave forces ATMC to build with a matching queue.
 
 Obviously when using ATMC to make entirely new .ACB files, this can be safely ignored and Waves can be named whatever you see fit for organization. 
+
+## Localization
+Output can be in either English or Japanese. Japanese is the default and should be where all .WAV files are stored. Unfortunately, it seems like ATLUS chose to duplicate every single .WAV if a .ACB required localization. To maintain Stream Indexing order, this behavior has to be duplicated for the time being, but better solutions will come soon.
