@@ -100,7 +100,10 @@
       <Orca OrcaName="TargetConfigs" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoTargetConfigFolder">
         <Orca OrcaName="xrd744" DefaultDspSetting="/CriAtomCraftV2Root/GlobalSettings/DspBusSettings/BusSet_xrd744" EnableHaptix="False" EncodeType="ADX" EncodeTypeStm="ADX" HcaQuality="HiQuality" OoUniqId="5721d00a-13b8-485d-8693-8095b91fe7d3" SpeakerSetting="/CriAtomCraftV2Root/GlobalSettings/SpeakerSettings/SpeakerSettingsPC" StreamType="Stream" TargetUniqueEncodeType1="ADX" TargetUniqueEncodeType2="ADX" TargetUniqueEncodeType3="ADX" TargetUniqueEncodeType4="ADX" TargetUniqueEncodeType5="ADX" TargetUniqueEncodeType6="ADX" TargetUniqueEncodeType7="ADX" TargetUniqueEncodeType8="ADX" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoTargetConfigPc" />
       </Orca>
-      <Orca OrcaName="LanguageSettings" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSettingFolder" />
+      <Orca OrcaName="LanguageSettings" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSettingFolder">
+        <Orca OrcaName="Japanese" OutputFolderName="ja" ReplaceFolderName="ja" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSetting" />
+        <Orca OrcaName="English" OutputFolderName="en" ReplaceFolderName="en" ReplaceLanguage="/CriAtomCraftV2Root/GlobalSettings/LanguageSettings/Japanese" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSetting" />
+      </Orca>
       <Orca OrcaName="Categories" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryFolder">
         <Orca OrcaName="GroupNo0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
           <Orca OrcaName="se" Volume="0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
