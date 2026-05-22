@@ -1,6 +1,7 @@
 *.user_settings
 *.atmcuser
 *.txt
+*.bat
 desktop.ini
 xrd744_Cache/
 xrd744_Backup/
