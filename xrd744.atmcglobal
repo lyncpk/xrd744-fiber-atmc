@@ -114,7 +114,7 @@
           <Orca OrcaName="system" CategoryId="3" CueLimitEnableFlag="True" CueLimits="3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
           <Orca OrcaName="syste_stream" CategoryId="12" CueLimitEnableFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
           <Orca OrcaName="field_se_suppressor" CategoryId="13" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory">
-            <Orca OrcaName="noname" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Any" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+            <Orca OrcaName="field_se_ramp" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Any" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
               <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
                 <Orca OrcaName="AisacPoint" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
                 <Orca OrcaName="AisacPoint" ControlValue="1" DestinationValue="0.2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
