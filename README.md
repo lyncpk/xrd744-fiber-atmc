@@ -32,12 +32,16 @@ ATMC projects by default are created in  `~/Documents/CriAtomCraft/`, which func
 **Expect large files on build!** The .WAV files present are already large to avoid build artifacts from double compression. Reserve at least 3 Gigabytes for ATMC and this repo. 
 
 ## Compatibility
-This project is intended for fiber, but can theoretically be retrofitted for PS3, PS4, Switch, and Xbox. For versions of Persona 5 Royal released prior to fiber, some Cue IDs will be misaligned and the Project Encryption Key will need to be changed. 
+This project is intended for fiber, but can theoretically be retrofitted for PS3, PS4, Switch, and Xbox. 
+For versions of Persona 5 Royal released prior to fiber, some Cue IDs will be misaligned and the Project Encryption Key will need to be changed. 
 For base Persona 5, most .ACB files contained are completely different and will not function at all. While unlikely to cause fatal crashes, this repo should only serve as reference material for non-Royal versions.
 
 ## Testing
 To verify Cue ID and Player / Voice configuration in-game, download [Ryo Framework](https://gamebanana.com/mods/549032) and toggle on "Developer Mode" in the Mod Settings to see Cue Triggers being printed to conhost.
+
 To verify the integrity of the project with any other version of ATMC, select Build from the Global Settings window and select Build Only ACF, the .ACF exported to /xrd744 should match byte for byte with the vanilla fiber .ACF file. 
+
+Audio files can be read via [CriAtomViewer](https://game.criware.jp/manual/native/adx2_en/latest/criatom_tools_criatomviewer_about.html), but note that most features like Local AISAC, Subsequences, Track Events, etc. are not displayed. For more accurate analysis, this project was made alongside a lightly modified build of [AtomicAudio](https://github.com/DarkPsydeOfTheMoon/AtomicAudio).   
 
 ## Stream Indexing
 ATMC assigns a Wave Index to files queued for conversion partially via *filename length*, so recreations of vanilla .ACB files should use tools like [AtomicAudio](https://github.com/DarkPsydeOfTheMoon/AtomicAudio) or [SonicAudioTools](https://github.com/blueskythlikesclouds/SonicAudioTools) to extract streams with their Wave Index as a filename and **MAKE SURE** to pad their ID's to a uniform character count, i.e: 
