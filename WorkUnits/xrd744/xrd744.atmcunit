@@ -4072,7 +4072,7 @@
             </Orca>
           </Orca>
           <Orca OrcaName="bgm" AwbHash="40145" OoUniqId="71bf25f1-ec15-423e-b9ff-8a2a2fe68a97" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet" />
-          <Orca OrcaName="system" AwbHash="13159" LastOutputCueSheetSize="7055808" OoUniqId="d1e763f0-76a7-4c7d-bf0e-ce397c1e01ab" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+          <Orca OrcaName="system" AwbHash="13159" LastOutputCueSheetSize="6562464" OoUniqId="d1e763f0-76a7-4c7d-bf0e-ce397c1e01ab" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
             <Orca OrcaName="cursor" BusSendEx1="0.01" BusSendEx2="0" BusSendEx3="0" BusSendEx4="0" BusSendEx5="0" BusSendEx6="0" BusSendEx7="0" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" Category1="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo1/system" CueID="0" PlaybackLimitEnableFlag="True" PlaybackLimits="2" Pos3dDistanceMax="10" Pos3dDistanceMin="2" SynthType="SynthPolyphonic" Volume="0.7" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
               <Orca OrcaName="Track_memory-0176" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                 <Orca OrcaName="memory-0176.wav" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0176.wav" LinkWaveformPathName="ja/system/memory-0176.wav" PanType="Auto" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
@@ -8004,6 +8004,50 @@
             <Orca OrcaName="猫モルガナ_乗る" BusSendEx1="0" BusSendEx2="0" BusSendEx3="0" BusSendEx4="0" BusSendEx5="0" BusSendEx6="0" BusSendEx7="0" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" Category1="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo1/syste_stream" CueID="3020" Pan3dDistance="0.7" Pos3dDistanceMax="4000" Pos3dDistanceMin="50" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
               <Orca OrcaName="Track_stream-0314" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" Volume="0.5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                 <Orca OrcaName="stream-0314.wav" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/stream-0314.wav" LinkWaveformPathName="ja/system/stream-0314.wav" PanType="Auto" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+              </Orca>
+            </Orca>
+          </Orca>
+          <Orca OrcaName="test" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetSubFolder">
+            <Orca OrcaName="test" AwbHash="10926" LastOutputCueSheetSize="121280" OoUniqId="1ddea1eb-0795-4914-ba96-5d14891cc619" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+              <Orca OrcaName="AOA_Repeat_Test" BusSendEx1="0.05" BusSendEx2="0" BusSendEx3="0" BusSendEx4="0" BusSendEx5="0" BusSendEx6="0" BusSendEx7="0" BusSendExName1="BUS1" BusSendExName2="BUS2" BusSendExName3="BUS3" BusSendExName4="BUS4" BusSendExName5="BUS5" BusSendExName6="BUS6" BusSendExName7="BUS7" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo0/se" Category1="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo1/syste_stream" CueID="0" Pos3dDistanceMax="4000" Pos3dDistanceMin="50" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+                <Orca OrcaName="Track_stream-0012" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" Pan3dSendLFE="0.2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="stream-0013.wav" BusSendExUseFlag0="True" BusSendExUseFlag1="True" BusSendExUseFlag2="True" BusSendExUseFlag3="True" BusSendExUseFlag4="True" BusSendExUseFlag5="True" BusSendExUseFlag6="True" BusSendExUseFlag7="True" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/stream-0013.wav" LinkWaveformPathName="ja/system/stream-0013.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                  <Orca OrcaName="Automation" AisacType="Automation" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+                    <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+                      <Orca OrcaName="AutomationPoint" ControlValue="2550" DestinationValue="1.039" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                      <Orca OrcaName="AutomationPoint" ControlValue="3500" CurveType="RapidStartSlowEnd" DestinationValue="0.5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                      <Orca OrcaName="AutomationPoint" ControlValue="4550" CurveType="SlowStartRapidEnd" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    </Orca>
+                  </Orca>
+                </Orca>
+                <Orca OrcaName="Track" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                  <Orca OrcaName="SubSequence" AutoRepeatInterval="227" AutoRepeatNum="6" DelayTimeMS="2669" Pan3dAngle="180" Pan3dAngleRnd="305" PlaybackTimingRnd="75" SynthType="SynthRandomNoRepeat" Volume="0.8" VolumeRnd="0.15" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthSubSynth">
+                    <Orca OrcaName="Track_memory-0023" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0023.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0023.wav" LinkWaveformPathName="ja/system/memory-0023.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                    <Orca OrcaName="Track_memory-0024" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0024.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0024.wav" LinkWaveformPathName="ja/system/memory-0024.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                    <Orca OrcaName="Track_memory-0025" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0025.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0025.wav" LinkWaveformPathName="ja/system/memory-0025.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                    <Orca OrcaName="Track_memory-0026" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0026.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0026.wav" LinkWaveformPathName="ja/system/memory-0026.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                    <Orca OrcaName="Track_memory-0027" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0027.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0027.wav" LinkWaveformPathName="ja/system/memory-0027.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                    <Orca OrcaName="Track_memory-0028" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                      <Orca OrcaName="memory-0028.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/xrd744_MaterialInfo/MaterialRootFolder/ja/system/memory-0028.wav" LinkWaveformPathName="ja/system/memory-0028.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                    </Orca>
+                  </Orca>
+                  <Orca OrcaName="Automation" AisacType="Automation" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+                    <Orca OrcaName="BandPassHi" ControlDestinationType="BandPassHi" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+                      <Orca OrcaName="AutomationPoint" ControlValue="2669" DestinationValue="0.6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                      <Orca OrcaName="AutomationPoint" ControlValue="3200" DestinationValue="0.9" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    </Orca>
+                  </Orca>
+                </Orca>
               </Orca>
             </Orca>
           </Orca>
