@@ -2,9 +2,9 @@
 <!-- Orca XML File Format -->
 <OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
   <OrcaTree OrcaName="(no name)">
-    <Orca OrcaName="xrd744_MaterialInfo" FormatVersion="Ver.1.02.00" MaterialInfoPath="" MaterialRootPath="Materials" VersionInfo="Ver.2.35.19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoMaterialInfoFile">
-      <Orca OrcaName="MaterialRootFolder" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformFolder">
-        <Orca OrcaName="ja" EncodeType="HCA" HcaQuality="MidiumHiQuality" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
+    <Orca OrcaName="xrd744" FormatVersion="Ver.1.02.00" MaterialInfoPath="" MaterialRootPath="Materials" VersionInfo="Ver.2.35.19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoMaterialInfoFile">
+      <Orca OrcaName="MaterialRootFolder" BatchConvertEnableFlag="False" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformFolder">
+        <Orca OrcaName="ja" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
           <Orca OrcaName="mementos" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
             <Orca OrcaName="memory-0018.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:08" ReloopEnd="147147" ResamplingRate="22050" SampleFrames="147147" SamplingRate="22050" SourceFileSize="294338" StreamType="Memory" WaveImageCacheWriteTime="2026/05/22 1:34:08" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
             <Orca OrcaName="memory-0019.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:08" ReloopEnd="147147" ResamplingRate="22050" SampleFrames="147147" SamplingRate="22050" SourceFileSize="294338" StreamType="Memory" WaveImageCacheWriteTime="2026/05/22 1:34:08" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
@@ -1400,8 +1400,9 @@
             <Orca OrcaName="memory-0228.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:08" ReloopEnd="82465" ResamplingRate="48000" SampleFrames="82465" SamplingRate="48000" SourceFileSize="164974" StreamType="Memory" WaveImageCacheWriteTime="2026/05/22 1:34:08" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
             <Orca OrcaName="memory-0226.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:08" ReloopEnd="29762" ResamplingRate="44100" SampleFrames="29762" SamplingRate="44100" SourceFileSize="59568" StreamType="Memory" WaveImageCacheWriteTime="2026/05/22 1:34:08" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
           </Orca>
+          <Orca OrcaName="zwork" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder" />
         </Orca>
-        <Orca OrcaName="en" EncodeType="HCA" HcaQuality="MidiumHiQuality" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
+        <Orca OrcaName="en" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
           <Orca OrcaName="dungeon_se" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformSubFolder">
             <Orca OrcaName="stream-0195.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:03" ReloopEnd="23471" ResamplingRate="44100" SampleFrames="23471" SamplingRate="44100" SourceFileSize="46986" StreamType="Stream" WaveImageCacheWriteTime="2026/05/02 4:32:35" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
             <Orca OrcaName="stream-0196.wav" Channels="1" LastLoadSrcFileTimeStamp="2026/05/22 1:34:03" ReloopEnd="13803" ResamplingRate="44100" SampleFrames="13803" SamplingRate="44100" SourceFileSize="27650" StreamType="Stream" WaveImageCacheWriteTime="2026/05/02 4:32:35" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
