@@ -2,7 +2,7 @@
 <!-- Orca XML File Format -->
 <OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
   <OrcaTree OrcaName="(no name)">
-    <Orca OrcaName="xrd744" ExternalCueSynthLinkType="Name" FormatVersion="Ver.1.02.00" KeyCode="9923540143823782" OoUniqId="9a5fbda7-0a4b-4edf-9bee-0bf37db27030" VersionInfo="Ver.2.35.19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoProjectV2">
+    <Orca OrcaName="xrd744" FormatVersion="Ver.1.02.00" KeyCode="9923540143823782" OoUniqId="9a5fbda7-0a4b-4edf-9bee-0bf37db27030" VersionInfo="Ver.2.35.19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoProjectV2">
       <Orca OrcaName="WaveMarkerTagSetting" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveMarkerTagSetting" />
     </Orca>
   </OrcaTree>
