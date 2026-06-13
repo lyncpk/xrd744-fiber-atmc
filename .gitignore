@@ -2,6 +2,7 @@
 *.atmcuser
 *.txt
 *.bat
+Materials/ja/bgm/*.wav
 desktop.ini
 xrd744_Cache/
 xrd744_Backup/

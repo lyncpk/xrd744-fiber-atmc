@@ -31,6 +31,10 @@ ATMC projects by default are created in  `~/Documents/CriAtomCraft/`, which func
 
 **Expect large files on build!** The .WAV files present are already large to avoid build artifacts from double compression. Reserve at least 3 Gigabytes for ATMC and this repo. 
 
+> [!WARNING]  
+> BGM, for the time being, does not contain the actual .WAV files. While this is a Git LFS repo, BGM adds 4 Gigabytes to the size alone. Given the other tools available for BGM modding in fiber, the BGM CueSheet should mostly be used for bugfixing or experimentation. 
+
+
 ## Compatibility
 This project is intended for fiber, but can theoretically be retrofitted for PS3, PS4, Switch, and Xbox. 
 For versions of Persona 5 Royal released prior to fiber, some Cue IDs will be misaligned and the Project Encryption Key will need to be changed. 
