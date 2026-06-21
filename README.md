@@ -34,6 +34,7 @@ ATMC projects by default are created in  `~/Documents/CriAtomCraft/`, which func
 > [!WARNING]  
 > BGM, for the time being, does not contain the actual .WAV files. While this is a Git LFS repo, BGM adds 4 Gigabytes to the size alone. Given the other tools available for BGM modding in fiber, the BGM CueSheet should mostly be used for bugfixing or experimentation. 
 
+Almost all tools in the Criware SDK are single-threaded with no GPU acceleration, so a mid-range CPU will help with navigating the larger .ACB files. Ignore the warning saying the estimated build time is in the hours range, the estimation function is *wildly* inaccurate, and all .ACB files will build in around 2 to 4 minutes, even on lower end hardware. 
 
 ## Compatibility
 This project is intended for fiber, but can theoretically be retrofitted for PS3, PS4, Switch, and Xbox. 
