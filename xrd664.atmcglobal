@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Orca XML File Format -->
+<OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
+  <OrcaTree OrcaName="(no name)">
+    <Orca OrcaName="GlobalSettings" VersionInfo="Ver.2.13.00" FormatVersion="Ver.1.00.00" OoUniqId="53f1b0a6-9bdf-4275-9a54-2d33c719ef89" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGlobalFolder">
+      <Orca OrcaName="Global AISAC" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGlobalAisacFolder">
+        <Orca OrcaName="GlobalAisac_Distance" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" DefaultControlValueFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+          <Orca OrcaName="Biquad - Cof" ControlDestinationType="BiquadFreq" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="-0.6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Distance_party" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" DefaultControlValueFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+          <Orca OrcaName="Biquad - Cof" ControlDestinationType="BiquadFreq" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="-0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="-0.9" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Reverb" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Reverb" DefaultControlValueFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="BusSend1" ControlDestinationType="BusSend1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Skill" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="BiquadFreq" ControlDestinationType="BiquadFreq" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="AisacPoint" ControlValue="0.6" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="-0.4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="AisacPoint" ControlValue="0.5" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0.5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Mob" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0.6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Distance_NoReduction" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+        <Orca OrcaName="GlobalAisac_Distance_Env" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+          <Orca OrcaName="BandPassHi" ControlDestinationType="BandPassHi" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0.85" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+          <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+          </Orca>
+        </Orca>
+      </Orca>
+      <Orca OrcaName="AISAC-Controls" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControlFolder">
+        <Orca OrcaName="Any" ControlId="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="Distance" ControlId="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="Reverb" ControlId="2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="Car" ControlId="3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl04" ControlId="4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="Bgm_Control_Space" ControlId="5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="FieldObjectDistance" ControlId="6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl07" ControlId="7" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl08" ControlId="8" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl09" ControlId="9" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl10" ControlId="10" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl11" ControlId="11" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl12" ControlId="12" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl13" ControlId="13" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl14" ControlId="14" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="AisacControl15" ControlId="15" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+      </Orca>
+      <Orca OrcaName="TargetConfigs" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoTargetConfigFolder">
+        <Orca OrcaName="xrd664" EncodeTypeStm="ADX" ForceResamplingRate="48000" DownMixMode="None" StreamType="Stream" HcaQuality="HiQuality" ForeceResamplingRateTargetComfortableEnableFlag="False" BatchConvertEnableFlag="False" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoTargetConfigPublic" />
+        <Orca OrcaName="encode" EncodeType="HCA" ForceResamplingRate="48000" DownMixMode="None" StreamType="Stream" HcaQuality="MidiumQuality" ForeceResamplingRateTargetComfortableEnableFlag="False" BatchConvertEnableFlag="False" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoTargetConfigPublic" />
+      </Orca>
+      <Orca OrcaName="LanguageSettings" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSettingFolder">
+        <Orca OrcaName="Default" ReplaceFolderName="" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSetting" />
+        <Orca OrcaName="English" ReplaceFolderName="en" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSetting" />
+      </Orca>
+      <Orca OrcaName="Categories" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryFolder">
+        <Orca OrcaName="GroupNo0" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
+          <Orca OrcaName="se" Volume="0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="bgm" CategoryId="1" Volume="0.24" CueLimitEnableFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="voice" CategoryId="2" Volume="0.3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+        </Orca>
+        <Orca OrcaName="GroupNo1" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
+          <Orca OrcaName="system" CategoryId="3" CueLimitEnableFlag="True" CueLimits="3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="syste_stream" CategoryId="12" CueLimitEnableFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="field_se_suppressor" CategoryId="13" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+        </Orca>
+        <Orca OrcaName="GroupNo2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
+          <Orca OrcaName="carrier" CategoryId="4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="modulator" CategoryId="5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="car_loop" CategoryId="6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="car_oneshot" CategoryId="7" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="six_sense_carrier" CategoryId="8" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="six_sense_modulator" CategoryId="9" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="coop_carrier" CategoryId="10" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="coop_modulator" CategoryId="11" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+        </Orca>
+      </Orca>
+      <Orca OrcaName="REACT" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReactFolder">
+        <Orca OrcaName="generic_se_ducker" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/carrier" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/modulator" DecrementTime="1000" IncrementTime="1000" Level="0.4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
+        <Orca OrcaName="car_hit_ducker" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/car_loop" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/car_oneshot" HoldTime="200" IncrementTime="250" Level="0.7" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
+        <Orca OrcaName="six_sense_ducker" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/six_sense_carrier" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/six_sense_modulator" DecrementTime="1000" IncrementTime="2000" Level="0.4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
+        <Orca OrcaName="coop_ducker" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/coop_carrier" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/GroupNo2/coop_modulator" DecrementTime="500" IncrementTime="500" Level="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
+      </Orca>
+      <Orca OrcaName="VoiceLimitGroups" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroupFolder">
+        <Orca OrcaName="VoiceLimitGroup_bgm" VoiceLimitNum="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroup" />
+      </Orca>
+      <Orca OrcaName="GameVariables" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGameVariableFolder">
+        <Orca OrcaName="Default" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGameVariable" />
+      </Orca>
+      <Orca OrcaName="SelectorFolder" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorFolder">
+        <Orca OrcaName="Selector_footsteps" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelector">
+          <Orca OrcaName="stone" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="soil" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="grass" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="metal" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="wood" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="carpet" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+        </Orca>
+        <Orca OrcaName="Selector_door" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelector">
+          <Orca OrcaName="door_open" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_kick" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_notopen" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="switch_open" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="switch_notopen" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="lever_open" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="lever_notopen" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_close" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_plate" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_padlock" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="door_mouse" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+        </Orca>
+        <Orca OrcaName="Selector_car" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelector">
+          <Orca OrcaName="sedan_1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="sedan_2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="sedan_3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="wagon" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="truck_1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="truck_2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="taxi" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="police" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="ambulance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+        </Orca>
+        <Orca OrcaName="Selector_weather" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelector">
+          <Orca OrcaName="sunny" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="rain" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="snow" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="rainy_season" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="typhoon" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="pollen" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="donwpour" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="heat_island" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+          <Orca OrcaName="influenza" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoSelectorLabel" />
+        </Orca>
+      </Orca>
+      <Orca OrcaName="DspBusSettings" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspSettingFolder">
+        <Orca OrcaName="BusSet_xrd664" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspSetting">
+          <Orca OrcaName="BUS0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus">
+            <Orca OrcaName="BusSendToBUS0" BusSend="/CriAtomCraftV2Root/GlobalSettings/DspBusSettings/BusSet_xrd664/BUS0" BusSendType="PostPan" BusSendLevel="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBusLink" />
+            <Orca OrcaName="Reverb" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspFxReverb" />
+          </Orca>
+          <Orca OrcaName="BUS2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS6" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+          <Orca OrcaName="BUS7" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoDspBus" />
+        </Orca>
+      </Orca>
+      <Orca OrcaName="BookMark" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBookMarkFolder" />
+    </Orca>
+  </OrcaTree>
+</OrcaTrees>
+<!-- Copyright (c) CRI Middleware Co.,LTD. -->
+<!-- end of document -->

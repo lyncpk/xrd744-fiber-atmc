@@ -2,8 +2,8 @@
 <!-- Orca XML File Format -->
 <OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
   <OrcaTree OrcaName="(no name)">
-    <Orca OrcaName="xrd744" FormatVersion="Ver.1.02.00" KeyCode="9923540143823782" OoUniqId="9a5fbda7-0a4b-4edf-9bee-0bf37db27030" VersionInfo="Ver.2.35.19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoProjectV2">
-      <Orca OrcaName="xrd744" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBase" />
+    <Orca OrcaName="xrd664_MaterialInfo" VersionInfo="Ver.2.13.00" FormatVersion="Ver.1.00.00" MaterialInfoPath="" MaterialRootPath="Materials" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoMaterialInfoFile">
+      <Orca OrcaName="MaterialRootFolder" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformFolder" />
     </Orca>
   </OrcaTree>
 </OrcaTrees>
